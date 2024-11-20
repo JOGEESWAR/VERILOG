@@ -1,0 +1,358 @@
+# vsim work.top -l run.log 
+# Start time: 23:59:22 on Nov 20,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.top(fast)
+# Loading work.demux(fast)
+# i=0---sel=0---y[0]=0---y[1]=x
+# i=0---sel=1---y[0]=0---y[1]=0
+# i=1---sel=0---y[0]=1---y[1]=0
+# i=1---sel=1---y[0]=1---y[1]=1
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:00:48 on Nov 21,2024
+# vlog -reportprogress 300 demux_tb.v "+acc" 
+# -- Compiling module demux
+# ** Error: (vlog-13069) ** while parsing file included at demux_tb.v(1)
+# ** at demux_1x2.v(6): near "0": syntax error, unexpected INTEGER NUMBER.
+# -- Compiling module top
+# End time: 00:00:48 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog demux_tb.v +acc"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:01:32 on Nov 21,2024
+# vlog -reportprogress 300 demux_tb.v "+acc" 
+# -- Compiling module demux
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:01:32 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:01:34 on Nov 21,2024, Elapsed time: 0:02:12
+# Errors: 4, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 00:01:34 on Nov 21,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.demux(fast)
+# i=0---sel=0---y[0]=0---y[1]=x
+# i=0---sel=1---y[0]=0---y[1]=0
+# i=1---sel=0---y[0]=1---y[1]=0
+# i=1---sel=1---y[0]=1---y[1]=1
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:04:25 on Nov 21,2024
+# vlog -reportprogress 300 demux_tb.v "+acc" 
+# -- Compiling module demux
+# ** Error: (vlog-13069) ** while parsing file included at demux_tb.v(1)
+# ** at demux_1x2.v(5): near "1": syntax error, unexpected INTEGER NUMBER, expecting ';'.
+# -- Compiling module top
+# End time: 00:04:25 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog demux_tb.v +acc"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:04:38 on Nov 21,2024
+# vlog -reportprogress 300 demux_tb.v "+acc" 
+# -- Compiling module demux
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:04:38 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:04:40 on Nov 21,2024, Elapsed time: 0:03:06
+# Errors: 4, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 00:04:40 on Nov 21,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.demux(fast)
+# i=0---sel=0---y[0]=1---y[1]=0
+# i=0---sel=1---y[0]=0---y[1]=1
+# i=1---sel=0---y[0]=1---y[1]=0
+# i=1---sel=1---y[0]=0---y[1]=1
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:05:40 on Nov 21,2024
+# vlog -reportprogress 300 demux_tb.v "+acc" 
+# -- Compiling module demux
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:05:40 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:05:41 on Nov 21,2024, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 00:05:41 on Nov 21,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.demux(fast)
+# i=0---sel=0---y[0]=1---y[1]=0
+# i=0---sel=1---y[0]=0---y[1]=1
+# i=1---sel=0---y[0]=1---y[1]=0
+# i=1---sel=1---y[0]=0---y[1]=1
+add wave -position insertpoint  \
+sim:/top/dut/i \
+sim:/top/dut/sel \
+sim:/top/dut/y
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.demux(fast)
+run -all
+# i=0---sel=0---y[0]=1---y[1]=0
+# i=0---sel=1---y[0]=0---y[1]=1
+# i=1---sel=0---y[0]=1---y[1]=0
+# i=1---sel=1---y[0]=0---y[1]=1
+vsim -debugDB demux
+# End time: 00:07:07 on Nov 21,2024, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 0
+# vsim -debugDB demux 
+# Start time: 00:07:07 on Nov 21,2024
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.demux(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:07:54 on Nov 21,2024
+# vlog -reportprogress 300 demux_tb.v "+acc" 
+# -- Compiling module demux
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:07:54 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:07:56 on Nov 21,2024, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 2
+# vsim work.top -l run.log 
+# Start time: 00:07:56 on Nov 21,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.demux(fast)
+# i=0---sel=0---y[0]=1---y[1]=0
+# i=0---sel=1---y[0]=0---y[1]=1
+# i=1---sel=0---y[0]=1---y[1]=0
+# i=1---sel=1---y[0]=0---y[1]=1
+vsim -debugDB demux
+# End time: 00:08:06 on Nov 21,2024, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0
+# vsim -debugDB demux 
+# Start time: 00:08:06 on Nov 21,2024
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Error: (vopt-31) Unable to unlink file "C:/Users/saijo/OneDrive/Desktop/GITHUB/codes/behavioural/combinational_circuits/demultiplexer/1x2/work\_dbcontainer\#64_opt1\__mti.dbg".
+# Permission denied. (errno = EACCES)
+# demux_1x2.v(1): Vopt Compiler exiting
+# Error loading design
+# End time: 00:08:06 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+vsim -debugDB demux
+# vsim -debugDB demux 
+# Start time: 00:08:26 on Nov 21,2024
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Error: (vopt-31) Unable to unlink file "C:/Users/saijo/OneDrive/Desktop/GITHUB/codes/behavioural/combinational_circuits/demultiplexer/1x2/work\_dbcontainer\#64_opt1\__mti.dbg".
+# Permission denied. (errno = EACCES)
+# demux_1x2.v(1): Vopt Compiler exiting
+# Error loading design
+# End time: 00:08:27 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+vsim -debugDB demux
+# vsim -debugDB demux 
+# Start time: 00:08:45 on Nov 21,2024
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Error: (vopt-31) Unable to unlink file "C:/Users/saijo/OneDrive/Desktop/GITHUB/codes/behavioural/combinational_circuits/demultiplexer/1x2/work\_dbcontainer\#64_opt1\__mti.dbg".
+# Permission denied. (errno = EACCES)
+# demux_1x2.v(1): Vopt Compiler exiting
+# Error loading design
+# End time: 00:08:45 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+q -sim
+do run.do
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:10:14 on Nov 21,2024
+# vlog -reportprogress 300 demux_tb.v "+acc" 
+# -- Compiling module demux
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:10:14 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 00:10:14 on Nov 21,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.top(fast)
+# Loading work.demux(fast)
+# i=0---sel=0---y[0]=1---y[1]=0
+# i=0---sel=1---y[0]=0---y[1]=1
+# i=1---sel=0---y[0]=1---y[1]=0
+# i=1---sel=1---y[0]=0---y[1]=1
+vsim -debugDB demux
+# End time: 00:10:23 on Nov 21,2024, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0
+# vsim -debugDB demux 
+# Start time: 00:10:23 on Nov 21,2024
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Error: (vopt-31) Unable to unlink file "C:/Users/saijo/OneDrive/Desktop/GITHUB/codes/behavioural/combinational_circuits/demultiplexer/1x2/work\_dbcontainer\#64_opt1\__mti.dbg".
+# Permission denied. (errno = EACCES)
+# demux_1x2.v(1): Vopt Compiler exiting
+# Error loading design
+# End time: 00:10:24 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:18:13 on Nov 21,2024
+# vlog -reportprogress 300 demux_tb.v "+acc" 
+# -- Compiling module demux
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:18:13 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 00:18:13 on Nov 21,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.demux(fast)
+# i=0---sel=0---y[0]=0---y[1]=0
+# i=0---sel=1---y[0]=0---y[1]=0
+# i=1---sel=0---y[0]=0---y[1]=1
+# i=1---sel=1---y[0]=1---y[1]=0
+vsim -debugDB demux
+# End time: 00:18:27 on Nov 21,2024, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 0
+# vsim -debugDB demux 
+# Start time: 00:18:27 on Nov 21,2024
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Error: (vopt-31) Unable to unlink file "C:/Users/saijo/OneDrive/Desktop/GITHUB/codes/behavioural/combinational_circuits/demultiplexer/1x2/work\_dbcontainer\#64_opt1\__mti.dbg".
+# Permission denied. (errno = EACCES)
+# demux_1x2.v(1): Vopt Compiler exiting
+# Error loading design
+# End time: 00:18:27 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+q -sim
+cd {C:\Users\saijo\OneDrive\Desktop\GITHUB\codes\behavioural\combinational_circuits\demultiplexer\1x4}
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:29:15 on Nov 21,2024
+# vlog -reportprogress 300 demux_tb.v "+acc" 
+# -- Compiling module demux
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:29:15 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 00:29:15 on Nov 21,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.top(fast)
+# Loading work.demux(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'sel'. The port definition is at: demux_1x4.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/dut File: demux_tb.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (4) for port 'y'. The port definition is at: demux_1x4.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/dut File: demux_tb.v Line: 7
+# i=0---sel=0---y[0]=0---y[1]=0---y[2]=z---y[3]=z
+# i=0---sel=1---y[0]=0---y[1]=0---y[2]=z---y[3]=z
+# i=0---sel=10---y[0]=0---y[1]=0---y[2]=z---y[3]=z
+# i=0---sel=11---y[0]=0---y[1]=0---y[2]=z---y[3]=z
+# i=1---sel=0---y[0]=0---y[1]=0---y[2]=z---y[3]=z
+# i=1---sel=1---y[0]=0---y[1]=0---y[2]=z---y[3]=z
+# i=1---sel=10---y[0]=0---y[1]=0---y[2]=z---y[3]=z
+# i=1---sel=11---y[0]=0---y[1]=0---y[2]=z---y[3]=z
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:30:25 on Nov 21,2024
+# vlog -reportprogress 300 demux_tb.v "+acc" 
+# -- Compiling module demux
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:30:25 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:30:27 on Nov 21,2024, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 2
+# vsim work.top -l run.log 
+# Start time: 00:30:27 on Nov 21,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.demux(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'sel'. The port definition is at: demux_1x4.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/dut File: demux_tb.v Line: 7
+# i=0---sel=0---y[0]=0---y[1]=0---y[2]=0---y[3]=0
+# i=0---sel=1---y[0]=0---y[1]=0---y[2]=0---y[3]=0
+# i=0---sel=10---y[0]=0---y[1]=0---y[2]=0---y[3]=0
+# i=0---sel=11---y[0]=0---y[1]=0---y[2]=0---y[3]=0
+# i=1---sel=0---y[0]=0---y[1]=0---y[2]=0---y[3]=1
+# i=1---sel=1---y[0]=0---y[1]=0---y[2]=1---y[3]=0
+# i=1---sel=10---y[0]=0---y[1]=0---y[2]=0---y[3]=1
+# i=1---sel=11---y[0]=0---y[1]=0---y[2]=1---y[3]=0
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:31:07 on Nov 21,2024
+# vlog -reportprogress 300 demux_tb.v "+acc" 
+# -- Compiling module demux
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:31:07 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:31:09 on Nov 21,2024, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 1
+# vsim work.top -l run.log 
+# Start time: 00:31:09 on Nov 21,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.demux(fast)
+# i=0---sel=0---y[0]=0---y[1]=0---y[2]=0---y[3]=0
+# i=0---sel=1---y[0]=0---y[1]=0---y[2]=0---y[3]=0
+# i=0---sel=10---y[0]=0---y[1]=0---y[2]=0---y[3]=0
+# i=0---sel=11---y[0]=0---y[1]=0---y[2]=0---y[3]=0
+# i=1---sel=0---y[0]=0---y[1]=0---y[2]=0---y[3]=1
+# i=1---sel=1---y[0]=0---y[1]=0---y[2]=1---y[3]=0
+# i=1---sel=10---y[0]=0---y[1]=1---y[2]=0---y[3]=0
+# i=1---sel=11---y[0]=1---y[1]=0---y[2]=0---y[3]=0

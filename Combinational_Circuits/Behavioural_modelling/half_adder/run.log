@@ -1,0 +1,1916 @@
+# vsim work.top -l run.log 
+# Start time: 18:48:53 on Nov 20,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.top(fast)
+run -all
+# a	 |	b	|	sum	 |	carry
+# ---------------------------
+# 0	0		z		z
+# 0	1		z		z
+# 1	0		z		z
+# 1	1		z		z
+run -all
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:49:53 on Nov 20,2024
+# vlog -reportprogress 300 ha_test.v "+acc" 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:49:53 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:49:54 on Nov 20,2024, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 18:49:54 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+run -all
+# a	 |	b	|	sum	 |	carry
+# ---------------------------
+# 0	0		z		z
+# 0	1		z		z
+# 1	0		z		z
+# 1	1		z		z
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:50:40 on Nov 20,2024
+# vlog -reportprogress 300 ha_test.v "+acc" 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:50:40 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:50:41 on Nov 20,2024, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 18:50:41 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+run -all
+# a	 |	b	|	sum	 |	carry
+# ---------------------------
+# 0	0		z		z
+# 0	1		z		z
+# 1	0		z		z
+# 1	1		z		z
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:52:46 on Nov 20,2024
+# vlog -reportprogress 300 ha_test.v "+acc" 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:52:46 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:52:47 on Nov 20,2024, Elapsed time: 0:02:06
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 18:52:47 on Nov 20,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:54:50 on Nov 20,2024
+# vlog -reportprogress 300 ha_test.v "+acc" 
+# -- Compiling module ha
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:54:50 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:54:51 on Nov 20,2024, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 18:54:51 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.ha(fast)
+run -all
+# a	 |	b	|	sum	 |	carry
+# ---------------------------
+# 0	0		x		x
+# 0	1		x		x
+# 1	0		x		x
+# 1	1		x		x
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:57:07 on Nov 20,2024
+# vlog -reportprogress 300 ha_test.v "+acc" 
+# -- Compiling module ha
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:57:07 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:57:08 on Nov 20,2024, Elapsed time: 0:02:17
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 18:57:08 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.ha(fast)
+run -all
+# a	 |	b	|	sum	 |	carry
+# ---------------------------
+# 0  0  x  x
+# 0  1  x  x
+# 1  0  x  x
+# 1  1  x  x
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:57:55 on Nov 20,2024
+# vlog -reportprogress 300 ha_test.v "+acc" 
+# -- Compiling module ha
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:57:55 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:57:56 on Nov 20,2024, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 18:57:56 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.ha(fast)
+run -all
+# a	 |	b	|	sum	 |	carry
+# ---------------------------
+# 0  0  x  x
+# 0  1  x  x
+# 1  0  x  x
+# 1  1  x  x
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:58:24 on Nov 20,2024
+# vlog -reportprogress 300 ha_test.v "+acc" 
+# -- Compiling module ha
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:58:24 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:58:25 on Nov 20,2024, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 18:58:25 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): ha_test.v(16): (vopt-7063) Failed to find 'this' in hierarchical name 'this.a'.
+#         Region: top
+# ** Error (suppressible): ha_test.v(16): (vopt-7063) Failed to find 'this' in hierarchical name 'this.b'.
+#         Region: top
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 3
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:59:18 on Nov 20,2024
+# vlog -reportprogress 300 ha_test.v "+acc" 
+# -- Compiling module ha
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:59:19 on Nov 20,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 18:58:25 on Nov 20,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.top(fast)
+# Loading work.ha(fast)
+run -all
+# a	 |	b	|	sum	 |	carry
+# ---------------------------
+# 0  0  0  0
+# 0  1  1  0
+# 1  0  1  0
+# 1  1  1  0
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:01:23 on Nov 20,2024
+# vlog -reportprogress 300 ha_test.v "+acc" 
+# -- Compiling module ha
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:01:23 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:01:24 on Nov 20,2024, Elapsed time: 0:02:59
+# Errors: 2, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 19:01:24 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.ha(fast)
+run -all
+# a	 |	b	|	sum	 |	carry
+# ---------------------------
+# 0  0  0  0
+# 0  1  1  0
+# 1  0  1  0
+# 1  1  0  1
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:02:59 on Nov 20,2024
+# vlog -reportprogress 300 ha_test.v "+acc" 
+# -- Compiling module ha
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:02:59 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:03:00 on Nov 20,2024, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 19:03:00 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.ha(fast)
+run -all
+# a	 |	b	|	sum	 |	carry
+# ---------------------------
+# 0  0  	0  0
+# 0  1  	1  0
+# 1  0  	1  0
+# 1  1  	0  1
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:03:39 on Nov 20,2024
+# vlog -reportprogress 300 ha_test.v "+acc" 
+# -- Compiling module ha
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:03:39 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:03:40 on Nov 20,2024, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 19:03:40 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.ha(fast)
+run -all
+# a	 |	b	|	sum	 |	carry
+# ---------------------------
+# 0  0  	0   0
+# 0  1  	1   0
+# 1  0  	1   0
+# 1  1  	0   1
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:04:21 on Nov 20,2024
+# vlog -reportprogress 300 ha_test.v "+acc" 
+# -- Compiling module ha
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:04:21 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:04:22 on Nov 20,2024, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 19:04:22 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.ha(fast)
+run -all
+# a	 |	b	|	sum	 |	carry
+# ---------------------------
+# 0 | 0  |	0  |  0
+# 0 | 1  |	1  |  0
+# 1 | 0  |	1  |  0
+# 1 | 1  |	0  |  1
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:04:59 on Nov 20,2024
+# vlog -reportprogress 300 ha_test.v "+acc" 
+# -- Compiling module ha
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:04:59 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:05:00 on Nov 20,2024, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 19:05:00 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.ha(fast)
+run -all
+# a	 |	b	|	sum	 |	carry
+# ---------------------------
+# 0	 | 0   |		0  |   0
+# 0	 | 1   |		1  |   0
+# 1	 | 0   |		1  |   0
+# 1	 | 1   |		0  |   1
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:05:30 on Nov 20,2024
+# vlog -reportprogress 300 ha_test.v "+acc" 
+# -- Compiling module ha
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:05:31 on Nov 20,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 19:05:31 on Nov 20,2024, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 19:05:31 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.ha(fast)
+run -all
+# a	 |b	|	sum	|	carry
+# ---------------------------
+# 0	 | 0   |		0  |   0
+# 0	 | 1   |		1  |   0
+# 1	 | 0   |		1  |   0
+# 1	 | 1   |		0  |   1
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:08:04 on Nov 20,2024
+# vlog -reportprogress 300 ha_test.v "+acc" 
+# -- Compiling module ha
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:08:04 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:08:05 on Nov 20,2024, Elapsed time: 0:02:34
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 19:08:05 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: ha_test.v(19): (vopt-2123) Missing argument for format specification '%b'.
+# ** Error: ha_test.v(19): (vopt-2123) Missing argument for format specification '%b'.
+# ** Error: ha_test.v(19): (vopt-2123) Missing argument for format specification '%b'.
+# ** Error: ha_test.v(19): (vopt-2123) Missing argument for format specification '%b'.
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 2.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 3
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:08:27 on Nov 20,2024
+# vlog -reportprogress 300 ha_test.v "+acc" 
+# -- Compiling module ha
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:08:27 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 19:08:05 on Nov 20,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.top(fast)
+# Loading work.ha(fast)
+run -all
+# a	 |	b	|	sum	 |	carry
+# ---------------------------
+# 0	 |	0	|	0	 |	0
+# 0	 |	1	|	1	 |	0
+# 1	 |	0	|	1	 |	0
+# 1	 |	1	|	0	 |	1
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:09:05 on Nov 20,2024
+# vlog -reportprogress 300 ha_test.v "+acc" 
+# -- Compiling module ha
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:09:06 on Nov 20,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 19:09:06 on Nov 20,2024, Elapsed time: 0:01:01
+# Errors: 5, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 19:09:06 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.ha(fast)
+run -all
+# a	 |	b	|	sum	 |	carry
+# ---------------------------------------------
+# 0	 |	0	|	0	 |	0
+# 0	 |	1	|	1	 |	0
+# 1	 |	0	|	1	 |	0
+# 1	 |	1	|	0	 |	1
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:09:25 on Nov 20,2024
+# vlog -reportprogress 300 ha_test.v "+acc" 
+# -- Compiling module ha
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:09:25 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:09:25 on Nov 20,2024, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 19:09:25 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.ha(fast)
+run -all
+# a	 |	b	|	sum	 |	carry
+# ------------------------------------------------------
+# 0	 |	0	|	0	 |	0
+# 0	 |	1	|	1	 |	0
+# 1	 |	0	|	1	 |	0
+# 1	 |	1	|	0	 |	1
+q -sim
+# End time: 21:21:02 on Nov 20,2024, Elapsed time: 2:11:37
+# Errors: 0, Warnings: 0
+cd {C:\Users\saijo\OneDrive\Desktop\GITHUB\codes\behavioural\combinational_circuits\full_adder}
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:21:10 on Nov 20,2024
+# vlog -reportprogress 300 fa_tb.v "+acc" 
+# -- Compiling module top
+# ** Error: fa_tb.v(2): Port mode is incompatible with declaration: a
+# ** Error: fa_tb.v(2): Port mode is incompatible with declaration: b
+# ** Error: fa_tb.v(2): Port mode is incompatible with declaration: cin
+# ** Error: (vlog-13069) fa_tb.v(12): near "(": syntax error, unexpected '('.
+# ** Error: fa_tb.v(13): (vlog-13205) Syntax error found in the scope following 'a'. Is there a missing '::'?
+# End time: 21:21:10 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog fa_tb.v +acc"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:22:15 on Nov 20,2024
+# vlog -reportprogress 300 fa_tb.v "+acc" 
+# -- Compiling module top
+# ** Error: (vlog-13069) fa_tb.v(14): near ",": syntax error, unexpected ',', expecting ';'.
+# End time: 21:22:15 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog fa_tb.v +acc"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:22:28 on Nov 20,2024
+# vlog -reportprogress 300 fa_tb.v "+acc" 
+# -- Compiling module top
+# ** Error: fa_tb.v(14): (vlog-2730) Undefined variable: 'n'.
+# ** Error: fa_tb.v(16): BEGIN - END required around task/function statements
+# End time: 21:22:28 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog fa_tb.v +acc"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:22:56 on Nov 20,2024
+# vlog -reportprogress 300 fa_tb.v "+acc" 
+# -- Compiling module top
+# ** Error: (vlog-13069) fa_tb.v(13): near "begin": syntax error, unexpected begin, expecting ';'.
+# End time: 21:22:56 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog fa_tb.v +acc"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:23:30 on Nov 20,2024
+# vlog -reportprogress 300 fa_tb.v "+acc" 
+# -- Compiling module top
+# ** Error: fa_tb.v(15): (vlog-2730) Undefined variable: 'n'.
+# End time: 21:23:30 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog fa_tb.v +acc"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:24:24 on Nov 20,2024
+# vlog -reportprogress 300 fa_tb.v "+acc" 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:24:24 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 21:24:24 on Nov 20,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: fa_tb.v(4): Module 'fa' is not defined.
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 3
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:25:07 on Nov 20,2024
+# vlog -reportprogress 300 fa_tb.v "+acc" 
+# -- Compiling module fa
+# ** Error: ** while parsing file included at fa_tb.v(1)
+# ** at full_adder.v(3): (vlog-2730) Undefined variable: 'c'.
+# -- Compiling module top
+# End time: 21:25:07 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog fa_tb.v +acc"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:25:38 on Nov 20,2024
+# vlog -reportprogress 300 fa_tb.v "+acc" 
+# -- Compiling module fa
+# ** Error: ** while parsing file included at fa_tb.v(1)
+# ** at full_adder.v(4): (vlog-2730) Undefined variable: 'c'.
+# -- Compiling module top
+# End time: 21:25:39 on Nov 20,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog fa_tb.v +acc"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:26:00 on Nov 20,2024
+# vlog -reportprogress 300 fa_tb.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:26:00 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 21:24:24 on Nov 20,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): fa_tb.v(5): (vopt-13259) Missing instance name in instantiation of module/program/interface 'fa'.
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 3
+run -all
+# No Design Loaded!
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:26:29 on Nov 20,2024
+# vlog -reportprogress 300 fa_tb.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:26:29 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 21:24:24 on Nov 20,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.top(fast)
+# Loading work.fa(fast)
+run -all
+# a  |  b  |  sum  |  carry
+# ------------------------------------------------
+# 0  |  0  |  x  |  x  |  x
+# 0  |  1  |  x  |  x  |  x
+# 1  |  0  |  x  |  x  |  x
+# 1  |  1  |  x  |  x  |  x
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:29:27 on Nov 20,2024
+# vlog -reportprogress 300 fa_tb.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module top
+# ** Error: (vlog-13069) fa_tb.v(21): near "$display": syntax error, unexpected SYSTEM_IDENTIFIER, expecting ';'.
+# End time: 21:29:27 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog fa_tb.v +acc"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:29:41 on Nov 20,2024
+# vlog -reportprogress 300 fa_tb.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:29:41 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:29:42 on Nov 20,2024, Elapsed time: 0:05:18
+# Errors: 6, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 21:29:42 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.fa(fast)
+run -all
+# a  |  b  |  cin  |  sum  |  carry
+# ------------------------------------------------
+# 0  |  0  |  0  |  x  |  x
+# 0  |  0  |  1  |  x  |  x
+# 0  |  1  |  0  |  x  |  x
+# 0  |  1  |  1  |  x  |  x
+# 1  |  0  |  0  |  x  |  x
+# 1  |  0  |  1  |  x  |  x
+# 1  |  1  |  0  |  x  |  x
+# 1  |  1  |  1  |  x  |  x
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:31:43 on Nov 20,2024
+# vlog -reportprogress 300 fa_tb.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:31:43 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:31:44 on Nov 20,2024, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 21:31:44 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.fa(fast)
+run -all
+# a  |  b  |  cin  |  sum  |  carry
+# ------------------------------------------------
+# x  |  x  |  x  |  x  |  x
+# x  |  x  |  x  |  x  |  x
+# x  |  x  |  x  |  x  |  x
+# x  |  x  |  x  |  x  |  x
+# x  |  x  |  x  |  x  |  x
+# x  |  x  |  x  |  x  |  x
+# x  |  x  |  x  |  x  |  x
+# x  |  x  |  x  |  x  |  x
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:32:14 on Nov 20,2024
+# vlog -reportprogress 300 fa_tb.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:32:14 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:32:15 on Nov 20,2024, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 21:32:15 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.fa(fast)
+run -all
+# a  |  b  |  cin  |  sum  |  carry
+# ------------------------------------------------
+# 0  |  0  |  0  |  x  |  x
+# 0  |  0  |  1  |  0  |  0
+# 0  |  1  |  0  |  1  |  0
+# 0  |  1  |  1  |  1  |  0
+# 1  |  0  |  0  |  0  |  1
+# 1  |  0  |  1  |  1  |  0
+# 1  |  1  |  0  |  0  |  1
+# 1  |  1  |  1  |  0  |  1
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:33:06 on Nov 20,2024
+# vlog -reportprogress 300 fa_tb.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:33:06 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:33:07 on Nov 20,2024, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 21:33:07 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.fa(fast)
+run -all
+# a  |  b  |  cin  |  sum  |  carry
+# ------------------------------------------------
+# 0  |  0  |  0  |  x  |  x
+# 0  |  0  |  1  |  0  |  0
+# 0  |  1  |  0  |  1  |  0
+# 0  |  1  |  1  |  1  |  0
+# 1  |  0  |  0  |  0  |  1
+# 1  |  0  |  1  |  1  |  0
+# 1  |  1  |  0  |  0  |  1
+# 1  |  1  |  1  |  0  |  1
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:34:34 on Nov 20,2024
+# vlog -reportprogress 300 fa_tb.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:34:34 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:34:35 on Nov 20,2024, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 21:34:35 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.fa(fast)
+run -all
+# a  |  b  |  cin  |  sum  |  carry
+# ------------------------------------------------
+# 0  |  0  |  0  |  0  |  0
+# 0  |  0  |  1  |  1  |  0
+# 0  |  1  |  0  |  1  |  0
+# 0  |  1  |  1  |  0  |  1
+# 1  |  0  |  0  |  1  |  0
+# 1  |  0  |  1  |  0  |  1
+# 1  |  1  |  0  |  0  |  1
+# 1  |  1  |  1  |  1  |  1
+vsim -debugDB fa
+# End time: 21:35:18 on Nov 20,2024, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 0
+# vsim -debugDB fa 
+# Start time: 21:35:18 on Nov 20,2024
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.fa(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# Printing 1 page to 'Microsoft Print to PDF'
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.fa(fast)
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+vsim -debugDB top
+# End time: 21:38:28 on Nov 20,2024, Elapsed time: 0:03:10
+# Errors: 0, Warnings: 0
+# vsim -debugDB top 
+# Start time: 21:38:28 on Nov 20,2024
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.top(fast)
+# Loading work.fa(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+q -sim
+# End time: 21:58:59 on Nov 20,2024, Elapsed time: 0:20:31
+# Errors: 0, Warnings: 2
+cd {C:\Users\saijo\OneDrive\Desktop\GITHUB\codes\behavioural\combinational_circuits\half_substractor}
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:59:10 on Nov 20,2024
+# vlog -reportprogress 300 hs_tb.v "+acc" 
+# -- Compiling module top
+# ** Error: (vlog-13026) hs_tb.v(12): near "i": syntax error, 'input', 'output' or 'inout' expected.
+# End time: 21:59:10 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog hs_tb.v +acc"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:00:13 on Nov 20,2024
+# vlog -reportprogress 300 hs_tb.v "+acc" 
+# -- Compiling module top
+# ** Error: (vlog-13026) hs_tb.v(12): near "i": syntax error, 'input', 'output' or 'inout' expected.
+# End time: 22:00:13 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog hs_tb.v +acc"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:00:34 on Nov 20,2024
+# vlog -reportprogress 300 hs_tb.v "+acc" 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:00:34 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 22:00:34 on Nov 20,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.top(fast)
+run -all
+# a  |  b  |  diff  |  bw
+# ---------------------------
+# 0  |  0  |  z  |  z  
+# 0  |  1  |  z  |  z  
+# 0  |  0  |  z  |  z  
+# 0  |  1  |  z  |  z  
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:01:06 on Nov 20,2024
+# vlog -reportprogress 300 hs_tb.v "+acc" 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:01:06 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:01:07 on Nov 20,2024, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 22:01:07 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+run -all
+# a  |  b  |  diff  |  bw
+# ---------------------------
+# 0  |  0  |  z  |  z  
+# 0  |  1  |  z  |  z  
+# 0  |  0  |  z  |  z  
+# 0  |  1  |  z  |  z  
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:01:47 on Nov 20,2024
+# vlog -reportprogress 300 hs_tb.v "+acc" 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:01:47 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:01:48 on Nov 20,2024, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 22:01:48 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: hs_tb.v(5): Module 'hs' is not defined.
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 3
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:02:36 on Nov 20,2024
+# vlog -reportprogress 300 hs_tb.v "+acc" 
+# ** Error: hs_tb.v(1): Cannot find `include file "half_subtractor" in directories:
+#     C:/questasim64_10.7c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# -- Compiling module top
+# End time: 22:02:36 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog hs_tb.v +acc"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:02:53 on Nov 20,2024
+# vlog -reportprogress 300 hs_tb.v "+acc" 
+# -- Compiling module hs
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:02:53 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 22:01:48 on Nov 20,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.top(fast)
+# Loading work.hs(fast)
+run -all
+# a  |  b  |  diff  |  bw
+# ---------------------------
+# 0  |  0  |  0  |  0  
+# 0  |  1  |  1  |  1  
+# 0  |  0  |  0  |  0  
+# 0  |  1  |  1  |  1  
+run -all
+add wave -position insertpoint  \
+sim:/top/a \
+sim:/top/b \
+sim:/top/diff \
+sim:/top/bw \
+sim:/top/i
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.hs(fast)
+run -all
+# a  |  b  |  diff  |  bw
+# ---------------------------
+# 0  |  0  |  0  |  0  
+# 0  |  1  |  1  |  1  
+# 0  |  0  |  0  |  0  
+# 0  |  1  |  1  |  1  
+vsim -debugDB hs
+# End time: 22:04:37 on Nov 20,2024, Elapsed time: 0:02:49
+# Errors: 0, Warnings: 0
+# vsim -debugDB hs 
+# Start time: 22:04:37 on Nov 20,2024
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.hs(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+vsim -debugDB hs
+# End time: 22:05:56 on Nov 20,2024, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 2
+# vsim -debugDB hs 
+# Start time: 22:05:56 on Nov 20,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.hs(fast)
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+q -sim
+# End time: 22:16:51 on Nov 20,2024, Elapsed time: 0:10:55
+# Errors: 0, Warnings: 0
+cd {C:\Users\saijo\OneDrive\Desktop\GITHUB\codes\behavioural\combinational_circuits\full_substractor}
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:17:10 on Nov 20,2024
+# vlog -reportprogress 300 fs_tb.v "+acc" 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:17:10 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 22:17:10 on Nov 20,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: fs_tb.v(5): Module 'fs' is not defined.
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 3
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:18:18 on Nov 20,2024
+# vlog -reportprogress 300 fs_tb.v "+acc" 
+# -- Compiling module fs
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:18:18 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 22:17:10 on Nov 20,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.top(fast)
+# Loading work.fs(fast)
+# a  |  b  |  bin  |  diff  |  bw
+# --------------------------------------
+# 0  |  0  |  0  |  0  |  0  
+# 0  |  0  |  1  |  1  |  1  
+# 0  |  1  |  0  |  1  |  1  
+# 0  |  1  |  1  |  0  |  1  
+# 1  |  0  |  0  |  1  |  1  
+# 1  |  0  |  1  |  0  |  1  
+# 1  |  1  |  0  |  0  |  1  
+# 1  |  1  |  1  |  1  |  0  
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:18:56 on Nov 20,2024
+# vlog -reportprogress 300 fs_tb.v "+acc" 
+# -- Compiling module fs
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:18:56 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:18:58 on Nov 20,2024, Elapsed time: 0:01:48
+# Errors: 1, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 22:18:58 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.fs(fast)
+# a  |  b  |  bin  |  diff  |  bw
+# --------------------------------------
+# 0  |  0  |  0  |   0   |   0  
+# 0  |  0  |  1  |   1   |   1  
+# 0  |  1  |  0  |   1   |   1  
+# 0  |  1  |  1  |   0   |   1  
+# 1  |  0  |  0  |   1   |   1  
+# 1  |  0  |  1  |   0   |   1  
+# 1  |  1  |  0  |   0   |   1  
+# 1  |  1  |  1  |   1   |   0  
+add wave -position insertpoint  \
+sim:/top/a \
+sim:/top/b \
+sim:/top/bin \
+sim:/top/diff \
+sim:/top/bw \
+sim:/top/i
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.fs(fast)
+run -all
+# a  |  b  |  bin  |  diff  |  bw
+# --------------------------------------
+# 0  |  0  |  0  |   0   |   0  
+# 0  |  0  |  1  |   1   |   1  
+# 0  |  1  |  0  |   1   |   1  
+# 0  |  1  |  1  |   0   |   1  
+# 1  |  0  |  0  |   1   |   1  
+# 1  |  0  |  1  |   0   |   1  
+# 1  |  1  |  0  |   0   |   1  
+# 1  |  1  |  1  |   1   |   0  
+# Causality operation skipped due to absence of debug database file
+add wave -position insertpoint  \
+sim:/top/dut/a \
+sim:/top/dut/b \
+sim:/top/dut/bin \
+sim:/top/dut/diff \
+sim:/top/dut/bw
+run
+run -all
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.fs(fast)
+run -all
+# a  |  b  |  bin  |  diff  |  bw
+# --------------------------------------
+# 0  |  0  |  0  |   0   |   0  
+# 0  |  0  |  1  |   1   |   1  
+# 0  |  1  |  0  |   1   |   1  
+# 0  |  1  |  1  |   0   |   1  
+# 1  |  0  |  0  |   1   |   1  
+# 1  |  0  |  1  |   0   |   1  
+# 1  |  1  |  0  |   0   |   1  
+# 1  |  1  |  1  |   1   |   0  
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:23:35 on Nov 20,2024
+# vlog -reportprogress 300 fs_tb.v "+acc" 
+# -- Compiling module fs
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:23:35 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:23:36 on Nov 20,2024, Elapsed time: 0:04:38
+# Errors: 0, Warnings: 1
+# vsim work.top -l run.log 
+# Start time: 22:23:36 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.fs(fast)
+# a  |  b  |  bin  |  diff  |  bw
+# --------------------------------------
+# 0  |  0  |  0  |   0   |   0  
+# 0  |  0  |  1  |   1   |   1  
+# 0  |  1  |  0  |   1   |   0  
+# 0  |  1  |  1  |   0   |   1  
+# 1  |  0  |  0  |   1   |   1  
+# 1  |  0  |  1  |   0   |   1  
+# 1  |  1  |  0  |   0   |   0  
+# 1  |  1  |  1  |   1   |   1  
+vsim -debugDB fs
+# End time: 22:24:21 on Nov 20,2024, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 0
+# vsim -debugDB fs 
+# Start time: 22:24:21 on Nov 20,2024
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.fs(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+add wave -position insertpoint  \
+sim:/fs/a \
+sim:/fs/b \
+sim:/fs/bin \
+sim:/fs/diff \
+sim:/fs/bw
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.fs(fast)
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+run -all
+run -all
+run -all
+run -all
+run
+run -all
+run -all
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:25:15 on Nov 20,2024
+# vlog -reportprogress 300 fs_tb.v "+acc" 
+# -- Compiling module fs
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:25:15 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:25:17 on Nov 20,2024, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 22:25:17 on Nov 20,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.fs(fast)
+# a  |  b  |  bin  |  diff  |  bw
+# --------------------------------------
+# 0  |  0  |  0  |   0   |   0  
+# 0  |  0  |  1  |   1   |   1  
+# 0  |  1  |  0  |   1   |   0  
+# 0  |  1  |  1  |   0   |   1  
+# 1  |  0  |  0  |   1   |   1  
+# 1  |  0  |  1  |   0   |   1  
+# 1  |  1  |  0  |   0   |   0  
+# 1  |  1  |  1  |   1   |   1  
+add wave -position insertpoint  \
+sim:/top/dut/a \
+sim:/top/dut/b \
+sim:/top/dut/bin \
+sim:/top/dut/diff \
+sim:/top/dut/bw
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.fs(fast)
+run -all
+# a  |  b  |  bin  |  diff  |  bw
+# --------------------------------------
+# 0  |  0  |  0  |   0   |   0  
+# 0  |  0  |  1  |   1   |   1  
+# 0  |  1  |  0  |   1   |   0  
+# 0  |  1  |  1  |   0   |   1  
+# 1  |  0  |  0  |   1   |   1  
+# 1  |  0  |  1  |   0   |   1  
+# 1  |  1  |  0  |   0   |   0  
+# 1  |  1  |  1  |   1   |   1  
+vsim -debugDB fs
+# End time: 22:26:22 on Nov 20,2024, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 0
+# vsim -debugDB fs 
+# Start time: 22:26:22 on Nov 20,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.fs(fast)
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+cd {C:\Users\saijo\OneDrive\Desktop\GITHUB\codes\behavioural\combinational_circuits\parity_generator\parity_generator.v}
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+q -sim
+# End time: 22:44:30 on Nov 20,2024, Elapsed time: 0:18:08
+# Errors: 1, Warnings: 0
+cd {C:\Users\saijo\OneDrive\Desktop\GITHUB\codes\behavioural\combinational_circuits\parity_generator\parity_generator.v}
+# couldn't change working directory to "C:\Users\saijo\OneDrive\Desktop\GITHUB\codes\behavioural\combinational_circuits\parity_generator\parity_generator.v": not a directory
+cd {C:\Users\saijo\OneDrive\Desktop\GITHUB\codes\behavioural\combinational_circuits\parity_generator}
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:44:55 on Nov 20,2024
+# vlog -reportprogress 300 p_tb.v "+acc" 
+# -- Compiling module parity
+# -- Compiling module top
+# ** Error: (vlog-13069) p_tb.v(8): near "<": syntax error, unexpected '<'.
+# ** Error: (vlog-13069) p_tb.v(8): near ")": syntax error, unexpected ')', expecting ';'.
+# ** Error: (vlog-13069) p_tb.v(13): near "end": syntax error, unexpected end.
+# End time: 22:44:55 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog p_tb.v +acc"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:45:40 on Nov 20,2024
+# vlog -reportprogress 300 p_tb.v "+acc" 
+# -- Compiling module parity
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:45:40 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 22:45:40 on Nov 20,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): p_tb.v(6): (vopt-2247) The implicit port connection (.*) did not find a matching port, net, variable or interface instance for port 'a'.
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 3
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:46:14 on Nov 20,2024
+# vlog -reportprogress 300 p_tb.v "+acc" 
+# -- Compiling module parity
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:46:14 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 22:45:40 on Nov 20,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.top(fast)
+# Loading work.parity(fast)
+# datain=0,even_parity=0,odd_parity=1
+# datain=1,even_parity=1,odd_parity=0
+# datain=10,even_parity=1,odd_parity=0
+# datain=11,even_parity=0,odd_parity=1
+# datain=100,even_parity=1,odd_parity=0
+# datain=101,even_parity=0,odd_parity=1
+# datain=110,even_parity=0,odd_parity=1
+# datain=111,even_parity=1,odd_parity=0
+# datain=1000,even_parity=1,odd_parity=0
+# datain=1001,even_parity=0,odd_parity=1
+# datain=1010,even_parity=0,odd_parity=1
+# datain=1011,even_parity=1,odd_parity=0
+# datain=1100,even_parity=0,odd_parity=1
+# datain=1101,even_parity=1,odd_parity=0
+# datain=1110,even_parity=1,odd_parity=0
+# datain=1111,even_parity=0,odd_parity=1
+add wave -position insertpoint sim:/top/dut/*
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.parity(fast)
+run -all
+# datain=0,even_parity=0,odd_parity=1
+# datain=1,even_parity=1,odd_parity=0
+# datain=10,even_parity=1,odd_parity=0
+# datain=11,even_parity=0,odd_parity=1
+# datain=100,even_parity=1,odd_parity=0
+# datain=101,even_parity=0,odd_parity=1
+# datain=110,even_parity=0,odd_parity=1
+# datain=111,even_parity=1,odd_parity=0
+# datain=1000,even_parity=1,odd_parity=0
+# datain=1001,even_parity=0,odd_parity=1
+# datain=1010,even_parity=0,odd_parity=1
+# datain=1011,even_parity=1,odd_parity=0
+# datain=1100,even_parity=0,odd_parity=1
+# datain=1101,even_parity=1,odd_parity=0
+# datain=1110,even_parity=1,odd_parity=0
+# datain=1111,even_parity=0,odd_parity=1
+add wave -position insertpoint  \
+sim:/top/datain \
+sim:/top/ep \
+sim:/top/op \
+sim:/top/i
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.parity(fast)
+run -all
+# datain=0,even_parity=0,odd_parity=1
+# datain=1,even_parity=1,odd_parity=0
+# datain=10,even_parity=1,odd_parity=0
+# datain=11,even_parity=0,odd_parity=1
+# datain=100,even_parity=1,odd_parity=0
+# datain=101,even_parity=0,odd_parity=1
+# datain=110,even_parity=0,odd_parity=1
+# datain=111,even_parity=1,odd_parity=0
+# datain=1000,even_parity=1,odd_parity=0
+# datain=1001,even_parity=0,odd_parity=1
+# datain=1010,even_parity=0,odd_parity=1
+# datain=1011,even_parity=1,odd_parity=0
+# datain=1100,even_parity=0,odd_parity=1
+# datain=1101,even_parity=1,odd_parity=0
+# datain=1110,even_parity=1,odd_parity=0
+# datain=1111,even_parity=0,odd_parity=1
+vsim -debugDB parity
+# End time: 22:49:06 on Nov 20,2024, Elapsed time: 0:03:26
+# Errors: 0, Warnings: 0
+# vsim -debugDB parity 
+# Start time: 22:49:06 on Nov 20,2024
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.parity(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+q -sim
+# End time: 23:02:41 on Nov 20,2024, Elapsed time: 0:13:35
+# Errors: 0, Warnings: 2
+cd {C:\Users\saijo\OneDrive\Desktop\GITHUB\codes\behavioural\combinational_circuits\multiplier}
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:02:54 on Nov 20,2024
+# vlog -reportprogress 300 mux_tb.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module top
+# ** Error (suppressible): mux_tb.v(5): (vlog-2388) 'i' already declared in this scope (top).
+# ** Error: (vlog-13069) mux_tb.v(13): near "endmodule": syntax error, unexpected endmodule.
+# End time: 23:02:54 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux_tb.v +acc"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:03:11 on Nov 20,2024
+# vlog -reportprogress 300 mux_tb.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module top
+# ** Error (suppressible): mux_tb.v(5): (vlog-2388) 'i' already declared in this scope (top).
+# End time: 23:03:11 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux_tb.v +acc"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:03:41 on Nov 20,2024
+# vlog -reportprogress 300 mux_tb.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:03:41 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 23:03:41 on Nov 20,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.top(fast)
+# Loading work.mux(fast)
+run -all
+# i[0]=0---i[1]=0---sel=0---y=0
+# i[0]=0---i[1]=0---sel=1---y=0
+# i[0]=0---i[1]=0---sel=10---y=0
+# i[0]=0---i[1]=0---sel=11---y=0
+# i[0]=1---i[1]=0---sel=0---y=1
+# i[0]=1---i[1]=0---sel=1---y=0
+# i[0]=1---i[1]=0---sel=10---y=0
+# i[0]=1---i[1]=0---sel=11---y=0
+# i[0]=0---i[1]=1---sel=0---y=0
+# i[0]=0---i[1]=1---sel=1---y=1
+# i[0]=0---i[1]=1---sel=10---y=1
+# i[0]=0---i[1]=1---sel=11---y=1
+# i[0]=1---i[1]=1---sel=0---y=1
+# i[0]=1---i[1]=1---sel=1---y=1
+# i[0]=1---i[1]=1---sel=10---y=1
+# i[0]=1---i[1]=1---sel=11---y=1
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:05:08 on Nov 20,2024
+# vlog -reportprogress 300 mux_tb.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:05:08 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:05:09 on Nov 20,2024, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 23:05:09 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.mux(fast)
+run -all
+# i[0]=0---i[1]=0---sel=0---y=0
+# i[0]=0---i[1]=0---sel=1---y=0
+# i[0]=1---i[1]=0---sel=0---y=1
+# i[0]=1---i[1]=0---sel=1---y=0
+# i[0]=0---i[1]=1---sel=0---y=0
+# i[0]=0---i[1]=1---sel=1---y=1
+# i[0]=1---i[1]=1---sel=0---y=1
+# i[0]=1---i[1]=1---sel=1---y=1
+# i[0]=0---i[1]=0---sel=0---y=0
+# i[0]=0---i[1]=0---sel=1---y=0
+# i[0]=1---i[1]=0---sel=0---y=1
+# i[0]=1---i[1]=0---sel=1---y=0
+# i[0]=0---i[1]=1---sel=0---y=0
+# i[0]=0---i[1]=1---sel=1---y=1
+# i[0]=1---i[1]=1---sel=0---y=1
+# i[0]=1---i[1]=1---sel=1---y=1
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:06:20 on Nov 20,2024
+# vlog -reportprogress 300 mux_tb.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:06:20 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:06:22 on Nov 20,2024, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 23:06:22 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.mux(fast)
+run -all
+# i[0]=0---i[1]=0---sel=0---y=0
+# i[0]=0---i[1]=0---sel=1---y=0
+# i[0]=1---i[1]=0---sel=0---y=1
+# i[0]=1---i[1]=0---sel=1---y=0
+# i[0]=0---i[1]=1---sel=0---y=0
+# i[0]=0---i[1]=1---sel=1---y=1
+# i[0]=1---i[1]=1---sel=0---y=1
+# i[0]=1---i[1]=1---sel=1---y=1
+add wave -position insertpoint  \
+sim:/top/dut/i \
+sim:/top/dut/sel \
+sim:/top/dut/y
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.mux(fast)
+run -all
+# i[0]=0---i[1]=0---sel=0---y=0
+# i[0]=0---i[1]=0---sel=1---y=0
+# i[0]=1---i[1]=0---sel=0---y=1
+# i[0]=1---i[1]=0---sel=1---y=0
+# i[0]=0---i[1]=1---sel=0---y=0
+# i[0]=0---i[1]=1---sel=1---y=1
+# i[0]=1---i[1]=1---sel=0---y=1
+# i[0]=1---i[1]=1---sel=1---y=1
+vsim -debugDB mux
+# End time: 23:07:34 on Nov 20,2024, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 0
+# vsim -debugDB mux 
+# Start time: 23:07:35 on Nov 20,2024
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.mux(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+do m4x1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:20:51 on Nov 20,2024
+# vlog -reportprogress 300 mux_tb_4x1.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:20:51 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:20:52 on Nov 20,2024, Elapsed time: 0:13:17
+# Errors: 0, Warnings: 2
+# vsim work.top -l run.log 
+# Start time: 23:20:52 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: mux_tb_4x1.v(12): (vopt-2123) Missing argument for format specification '%b'.
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 2.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./m4x1.do PAUSED at line 3
+do m4x1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:21:23 on Nov 20,2024
+# vlog -reportprogress 300 mux_tb_4x1.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:21:24 on Nov 20,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 23:20:52 on Nov 20,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.top(fast)
+# Loading work.mux(fast)
+run -all
+# i[3]=0---i[2]=0---i[1]=0---i[0]=0---sel=0---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=0---sel=1---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=0---sel=10---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=0---sel=11---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=1---sel=0---y=1
+# i[3]=0---i[2]=0---i[1]=0---i[0]=1---sel=1---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=1---sel=10---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=1---sel=11---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=0---sel=0---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=0---sel=1---y=1
+# i[3]=0---i[2]=0---i[1]=1---i[0]=0---sel=10---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=0---sel=11---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=1---sel=0---y=1
+# i[3]=0---i[2]=0---i[1]=1---i[0]=1---sel=1---y=1
+# i[3]=0---i[2]=0---i[1]=1---i[0]=1---sel=10---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=1---sel=11---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=0---sel=0---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=0---sel=1---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=0---sel=10---y=1
+# i[3]=0---i[2]=1---i[1]=0---i[0]=0---sel=11---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=1---sel=0---y=1
+# i[3]=0---i[2]=1---i[1]=0---i[0]=1---sel=1---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=1---sel=10---y=1
+# i[3]=0---i[2]=1---i[1]=0---i[0]=1---sel=11---y=0
+# i[3]=0---i[2]=1---i[1]=1---i[0]=0---sel=0---y=0
+# i[3]=0---i[2]=1---i[1]=1---i[0]=0---sel=1---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=0---sel=10---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=0---sel=11---y=0
+# i[3]=0---i[2]=1---i[1]=1---i[0]=1---sel=0---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=1---sel=1---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=1---sel=10---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=1---sel=11---y=0
+# i[3]=1---i[2]=0---i[1]=0---i[0]=0---sel=0---y=0
+# i[3]=1---i[2]=0---i[1]=0---i[0]=0---sel=1---y=0
+# i[3]=1---i[2]=0---i[1]=0---i[0]=0---sel=10---y=0
+# i[3]=1---i[2]=0---i[1]=0---i[0]=0---sel=11---y=1
+# i[3]=1---i[2]=0---i[1]=0---i[0]=1---sel=0---y=1
+# i[3]=1---i[2]=0---i[1]=0---i[0]=1---sel=1---y=0
+# i[3]=1---i[2]=0---i[1]=0---i[0]=1---sel=10---y=0
+# i[3]=1---i[2]=0---i[1]=0---i[0]=1---sel=11---y=1
+# i[3]=1---i[2]=0---i[1]=1---i[0]=0---sel=0---y=0
+# i[3]=1---i[2]=0---i[1]=1---i[0]=0---sel=1---y=1
+# i[3]=1---i[2]=0---i[1]=1---i[0]=0---sel=10---y=0
+# i[3]=1---i[2]=0---i[1]=1---i[0]=0---sel=11---y=1
+# i[3]=1---i[2]=0---i[1]=1---i[0]=1---sel=0---y=1
+# i[3]=1---i[2]=0---i[1]=1---i[0]=1---sel=1---y=1
+# i[3]=1---i[2]=0---i[1]=1---i[0]=1---sel=10---y=0
+# i[3]=1---i[2]=0---i[1]=1---i[0]=1---sel=11---y=1
+# i[3]=1---i[2]=1---i[1]=0---i[0]=0---sel=0---y=0
+# i[3]=1---i[2]=1---i[1]=0---i[0]=0---sel=1---y=0
+# i[3]=1---i[2]=1---i[1]=0---i[0]=0---sel=10---y=1
+# i[3]=1---i[2]=1---i[1]=0---i[0]=0---sel=11---y=1
+# i[3]=1---i[2]=1---i[1]=0---i[0]=1---sel=0---y=1
+# i[3]=1---i[2]=1---i[1]=0---i[0]=1---sel=1---y=0
+# i[3]=1---i[2]=1---i[1]=0---i[0]=1---sel=10---y=1
+# i[3]=1---i[2]=1---i[1]=0---i[0]=1---sel=11---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=0---sel=0---y=0
+# i[3]=1---i[2]=1---i[1]=1---i[0]=0---sel=1---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=0---sel=10---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=0---sel=11---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=1---sel=0---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=1---sel=1---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=1---sel=10---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=1---sel=11---y=1
+do m4x1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:22:56 on Nov 20,2024
+# vlog -reportprogress 300 mux_tb_4x1.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:22:56 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:22:57 on Nov 20,2024, Elapsed time: 0:02:05
+# Errors: 2, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 23:22:57 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.mux(fast)
+run -all
+# i[3]=0---i[2]=0---i[1]=0---i[0]=0---sel=0---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=0---sel=1---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=0---sel=10---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=0---sel=11---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=1---sel=0---y=1
+# i[3]=0---i[2]=0---i[1]=0---i[0]=1---sel=1---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=1---sel=10---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=1---sel=11---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=0---sel=0---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=0---sel=1---y=1
+# i[3]=0---i[2]=0---i[1]=1---i[0]=0---sel=10---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=0---sel=11---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=1---sel=0---y=1
+# i[3]=0---i[2]=0---i[1]=1---i[0]=1---sel=1---y=1
+# i[3]=0---i[2]=0---i[1]=1---i[0]=1---sel=10---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=1---sel=11---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=0---sel=0---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=0---sel=1---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=0---sel=10---y=1
+# i[3]=0---i[2]=1---i[1]=0---i[0]=0---sel=11---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=1---sel=0---y=1
+# i[3]=0---i[2]=1---i[1]=0---i[0]=1---sel=1---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=1---sel=10---y=1
+# i[3]=0---i[2]=1---i[1]=0---i[0]=1---sel=11---y=0
+# i[3]=0---i[2]=1---i[1]=1---i[0]=0---sel=0---y=0
+# i[3]=0---i[2]=1---i[1]=1---i[0]=0---sel=1---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=0---sel=10---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=0---sel=11---y=0
+# i[3]=0---i[2]=1---i[1]=1---i[0]=1---sel=0---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=1---sel=1---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=1---sel=10---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=1---sel=11---y=0
+do m4x1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:24:15 on Nov 20,2024
+# vlog -reportprogress 300 mux_tb_4x1.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:24:15 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:24:17 on Nov 20,2024, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 23:24:17 on Nov 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.mux(fast)
+run -all
+# i[3]=0---i[2]=0---i[1]=0---i[0]=0---sel=0---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=0---sel=1---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=0---sel=10---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=0---sel=11---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=1---sel=0---y=1
+# i[3]=0---i[2]=0---i[1]=0---i[0]=1---sel=1---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=1---sel=10---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=1---sel=11---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=0---sel=0---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=0---sel=1---y=1
+# i[3]=0---i[2]=0---i[1]=1---i[0]=0---sel=10---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=0---sel=11---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=1---sel=0---y=1
+# i[3]=0---i[2]=0---i[1]=1---i[0]=1---sel=1---y=1
+# i[3]=0---i[2]=0---i[1]=1---i[0]=1---sel=10---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=1---sel=11---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=0---sel=0---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=0---sel=1---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=0---sel=10---y=1
+# i[3]=0---i[2]=1---i[1]=0---i[0]=0---sel=11---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=1---sel=0---y=1
+# i[3]=0---i[2]=1---i[1]=0---i[0]=1---sel=1---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=1---sel=10---y=1
+# i[3]=0---i[2]=1---i[1]=0---i[0]=1---sel=11---y=0
+# i[3]=0---i[2]=1---i[1]=1---i[0]=0---sel=0---y=0
+# i[3]=0---i[2]=1---i[1]=1---i[0]=0---sel=1---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=0---sel=10---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=0---sel=11---y=0
+# i[3]=0---i[2]=1---i[1]=1---i[0]=1---sel=0---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=1---sel=1---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=1---sel=10---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=1---sel=11---y=0
+# i[3]=1---i[2]=0---i[1]=0---i[0]=0---sel=0---y=0
+# i[3]=1---i[2]=0---i[1]=0---i[0]=0---sel=1---y=0
+# i[3]=1---i[2]=0---i[1]=0---i[0]=0---sel=10---y=0
+# i[3]=1---i[2]=0---i[1]=0---i[0]=0---sel=11---y=1
+# i[3]=1---i[2]=0---i[1]=0---i[0]=1---sel=0---y=1
+# i[3]=1---i[2]=0---i[1]=0---i[0]=1---sel=1---y=0
+# i[3]=1---i[2]=0---i[1]=0---i[0]=1---sel=10---y=0
+# i[3]=1---i[2]=0---i[1]=0---i[0]=1---sel=11---y=1
+# i[3]=1---i[2]=0---i[1]=1---i[0]=0---sel=0---y=0
+# i[3]=1---i[2]=0---i[1]=1---i[0]=0---sel=1---y=1
+# i[3]=1---i[2]=0---i[1]=1---i[0]=0---sel=10---y=0
+# i[3]=1---i[2]=0---i[1]=1---i[0]=0---sel=11---y=1
+# i[3]=1---i[2]=0---i[1]=1---i[0]=1---sel=0---y=1
+# i[3]=1---i[2]=0---i[1]=1---i[0]=1---sel=1---y=1
+# i[3]=1---i[2]=0---i[1]=1---i[0]=1---sel=10---y=0
+# i[3]=1---i[2]=0---i[1]=1---i[0]=1---sel=11---y=1
+# i[3]=1---i[2]=1---i[1]=0---i[0]=0---sel=0---y=0
+# i[3]=1---i[2]=1---i[1]=0---i[0]=0---sel=1---y=0
+# i[3]=1---i[2]=1---i[1]=0---i[0]=0---sel=10---y=1
+# i[3]=1---i[2]=1---i[1]=0---i[0]=0---sel=11---y=1
+# i[3]=1---i[2]=1---i[1]=0---i[0]=1---sel=0---y=1
+# i[3]=1---i[2]=1---i[1]=0---i[0]=1---sel=1---y=0
+# i[3]=1---i[2]=1---i[1]=0---i[0]=1---sel=10---y=1
+# i[3]=1---i[2]=1---i[1]=0---i[0]=1---sel=11---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=0---sel=0---y=0
+# i[3]=1---i[2]=1---i[1]=1---i[0]=0---sel=1---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=0---sel=10---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=0---sel=11---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=1---sel=0---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=1---sel=1---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=1---sel=10---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=1---sel=11---y=1
+# Printing not supported.
+# Printing not supported.
+add wave -position insertpoint  \
+sim:/top/dut/i \
+sim:/top/dut/sel \
+sim:/top/dut/y
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.mux(fast)
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.mux(fast)
+run -all
+# i[3]=0---i[2]=0---i[1]=0---i[0]=0---sel=0---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=0---sel=1---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=0---sel=10---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=0---sel=11---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=1---sel=0---y=1
+# i[3]=0---i[2]=0---i[1]=0---i[0]=1---sel=1---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=1---sel=10---y=0
+# i[3]=0---i[2]=0---i[1]=0---i[0]=1---sel=11---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=0---sel=0---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=0---sel=1---y=1
+# i[3]=0---i[2]=0---i[1]=1---i[0]=0---sel=10---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=0---sel=11---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=1---sel=0---y=1
+# i[3]=0---i[2]=0---i[1]=1---i[0]=1---sel=1---y=1
+# i[3]=0---i[2]=0---i[1]=1---i[0]=1---sel=10---y=0
+# i[3]=0---i[2]=0---i[1]=1---i[0]=1---sel=11---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=0---sel=0---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=0---sel=1---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=0---sel=10---y=1
+# i[3]=0---i[2]=1---i[1]=0---i[0]=0---sel=11---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=1---sel=0---y=1
+# i[3]=0---i[2]=1---i[1]=0---i[0]=1---sel=1---y=0
+# i[3]=0---i[2]=1---i[1]=0---i[0]=1---sel=10---y=1
+# i[3]=0---i[2]=1---i[1]=0---i[0]=1---sel=11---y=0
+# i[3]=0---i[2]=1---i[1]=1---i[0]=0---sel=0---y=0
+# i[3]=0---i[2]=1---i[1]=1---i[0]=0---sel=1---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=0---sel=10---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=0---sel=11---y=0
+# i[3]=0---i[2]=1---i[1]=1---i[0]=1---sel=0---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=1---sel=1---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=1---sel=10---y=1
+# i[3]=0---i[2]=1---i[1]=1---i[0]=1---sel=11---y=0
+# i[3]=1---i[2]=0---i[1]=0---i[0]=0---sel=0---y=0
+# i[3]=1---i[2]=0---i[1]=0---i[0]=0---sel=1---y=0
+# i[3]=1---i[2]=0---i[1]=0---i[0]=0---sel=10---y=0
+# i[3]=1---i[2]=0---i[1]=0---i[0]=0---sel=11---y=1
+# i[3]=1---i[2]=0---i[1]=0---i[0]=1---sel=0---y=1
+# i[3]=1---i[2]=0---i[1]=0---i[0]=1---sel=1---y=0
+# i[3]=1---i[2]=0---i[1]=0---i[0]=1---sel=10---y=0
+# i[3]=1---i[2]=0---i[1]=0---i[0]=1---sel=11---y=1
+# i[3]=1---i[2]=0---i[1]=1---i[0]=0---sel=0---y=0
+# i[3]=1---i[2]=0---i[1]=1---i[0]=0---sel=1---y=1
+# i[3]=1---i[2]=0---i[1]=1---i[0]=0---sel=10---y=0
+# i[3]=1---i[2]=0---i[1]=1---i[0]=0---sel=11---y=1
+# i[3]=1---i[2]=0---i[1]=1---i[0]=1---sel=0---y=1
+# i[3]=1---i[2]=0---i[1]=1---i[0]=1---sel=1---y=1
+# i[3]=1---i[2]=0---i[1]=1---i[0]=1---sel=10---y=0
+# i[3]=1---i[2]=0---i[1]=1---i[0]=1---sel=11---y=1
+# i[3]=1---i[2]=1---i[1]=0---i[0]=0---sel=0---y=0
+# i[3]=1---i[2]=1---i[1]=0---i[0]=0---sel=1---y=0
+# i[3]=1---i[2]=1---i[1]=0---i[0]=0---sel=10---y=1
+# i[3]=1---i[2]=1---i[1]=0---i[0]=0---sel=11---y=1
+# i[3]=1---i[2]=1---i[1]=0---i[0]=1---sel=0---y=1
+# i[3]=1---i[2]=1---i[1]=0---i[0]=1---sel=1---y=0
+# i[3]=1---i[2]=1---i[1]=0---i[0]=1---sel=10---y=1
+# i[3]=1---i[2]=1---i[1]=0---i[0]=1---sel=11---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=0---sel=0---y=0
+# i[3]=1---i[2]=1---i[1]=1---i[0]=0---sel=1---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=0---sel=10---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=0---sel=11---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=1---sel=0---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=1---sel=1---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=1---sel=10---y=1
+# i[3]=1---i[2]=1---i[1]=1---i[0]=1---sel=11---y=1
+vsim -debugDB mux
+# End time: 23:28:35 on Nov 20,2024, Elapsed time: 0:04:18
+# Errors: 2, Warnings: 0
+# vsim -debugDB mux 
+# Start time: 23:28:35 on Nov 20,2024
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Error: (vopt-31) Unable to unlink file "C:/Users/saijo/OneDrive/Desktop/GITHUB/codes/behavioural/combinational_circuits/multiplier/work\_dbcontainer\#64_opt1\__mti.dbg".
+# Permission denied. (errno = EACCES)
+# mux_4x1.v(1): Vopt Compiler exiting
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./m4x1.do PAUSED at line 3
+do m4x1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:29:09 on Nov 20,2024
+# vlog -reportprogress 300 mux_tb_4x1.v "+acc" 
+# -- Compiling module mux1
+# -- Compiling module top
+# 
+# Top level modules:
+# 	mux1
+# 	top
+# End time: 23:29:09 on Nov 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.top -l run.log 
+# Start time: 23:28:35 on Nov 20,2024
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Error: (vopt-31) Unable to unlink file "C:/Users/saijo/OneDrive/Desktop/GITHUB/codes/behavioural/combinational_circuits/multiplier/work\_dbcontainer\#64_opt1\__mti.dbg".
+# Permission denied. (errno = EACCES)
+# mux_4x1.v(1): Vopt Compiler exiting
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./m4x1.do PAUSED at line 3
+q -sim
+# End time: 23:29:39 on Nov 20,2024, Elapsed time: 0:01:04
+# Errors: 2, Warnings: 4
+cd/
+# invalid command name "cd/"
+cd /..
+pwd
+# C:/
